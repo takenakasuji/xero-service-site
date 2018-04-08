@@ -34,5 +34,8 @@ module.exports = {
         })
       }
     }
-  }
+  },
+  css: [
+    '~assets/css/reset.css'
+  ]
 }
