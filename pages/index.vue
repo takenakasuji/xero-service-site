@@ -1,7 +1,7 @@
 <template>
   <div>
     <section>
-      <header-content/>
+      <app-header/>
     </section>
     <section>
       <key-visual/>
@@ -16,27 +16,27 @@
       <profile-content/>
     </section>
     <section>
-      <header-content/>
+      <app-footer/>
     </section>
   </div>
 </template>
 
 <script>
-import HeaderContent from '~/components/HeaderContent.vue'
+import AppHeader from '~/components/AppHeader.vue'
 import KeyVisual from '~/components/KeyVisual.vue'
 import ServiceContent from '~/components/ServiceContent.vue'
 import CaseContent from '~/components/CaseContent.vue'
 import ProfileContent from '~/components/ProfileContent.vue'
-import HooterContent from '~/components/HooterContent.vue'
+import AppFooter from '~/components/AppFooter.vue'
 
 export default {
   components: {
-    HeaderContent,
+    AppHeader,
     KeyVisual,
     ServiceContent,
     CaseContent,
     ProfileContent,
-    HooterContent
+    AppFooter
   }
 }
 </script>
