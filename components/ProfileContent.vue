@@ -1,7 +1,7 @@
 <template>
   <div class="wrapper">
     <ul>
-      <li>key-visual</li>
+      <li>profile</li>
     </ul>
   </div>
 </template>
@@ -10,6 +10,6 @@
 .wrapper {
   display: block;
   height: 400px;
-  background-color: #848484;
+  background-color: #fff;
 }
 </style>

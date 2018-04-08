@@ -1,5 +1,5 @@
 <template>
-  <div class="header">
+  <div class="hooter">
     <ul>
       <li>aaaa</li>
     </ul>
@@ -7,10 +7,9 @@
 </template>
 
 <style scoped>
-.header {
+.hooter {
   display: block;
-  height: 60px;
+  height: 200px;
   background-color: #333;
 }
 </style>
-

@@ -1,7 +1,7 @@
 <template>
   <div class="wrapper">
     <ul>
-      <li>key-visual</li>
+      <li>case</li>
     </ul>
   </div>
 </template>
