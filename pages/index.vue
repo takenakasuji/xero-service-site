@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="wrapper">
     <section>
       <app-header/>
     </section>
@@ -20,6 +20,13 @@
     </section>
   </div>
 </template>
+
+<style scoped>
+.wrapper {
+  width: auto;
+}
+</style>
+
 
 <script>
 import AppHeader from '~/components/AppHeader.vue'

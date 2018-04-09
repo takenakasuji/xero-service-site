@@ -1,8 +1,10 @@
 <template>
   <div class="wrapper">
-    <ul>
-      <li>service</li>
-    </ul>
+    <div class="container">
+      <ul>
+        <li>service</li>
+      </ul>
+    </div>
   </div>
 </template>
 
@@ -11,5 +13,10 @@
   display: block;
   height: 400px;
   background-color: #fff;
+}
+.container {
+  width: 1170px;
+  padding: 15px;
+  margin: auto;
 }
 </style>

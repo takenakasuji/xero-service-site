@@ -1,8 +1,10 @@
 <template>
   <div class="header">
-    <ul>
-      <li>logo</li>
-    </ul>
+    <div class="container">
+      <ul>
+        <li>logo</li>
+      </ul>
+    </div>
   </div>
 </template>
 
@@ -11,6 +13,11 @@
   display: block;
   height: 60px;
   background-color: #333;
+}
+.container {
+  width: 1170px;
+  padding: 15px;
+  margin: auto;
 }
 </style>
 
