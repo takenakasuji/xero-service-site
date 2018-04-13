@@ -16,7 +16,7 @@
 }
 .container {
   width: 1170px;
-  padding: 15px;
+  text-align: center;
   margin: auto;
 }
 </style>
