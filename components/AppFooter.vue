@@ -12,7 +12,7 @@
 .hooter {
   display: block;
   height: 200px;
-  background-color: #333;
+  background-color: #303e51ff;
 }
 .container {
   width: 1170px;

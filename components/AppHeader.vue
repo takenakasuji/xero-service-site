@@ -12,7 +12,7 @@
 .header {
   display: block;
   height: 60px;
-  background-color: #333;
+  background-color: #303e51ff;
 }
 .container {
   width: 1170px;
