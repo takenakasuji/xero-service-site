@@ -21,7 +21,7 @@
 <style scoped>
 .wrapper {
   width: auto;
-  font-family: Poppins, "Hiragino Kaku - W 3-90msp - RKSJ - H";
+  font-family: Poppins, "Hiragino Kaku";
 }
 </style>
 
