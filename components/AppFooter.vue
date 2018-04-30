@@ -15,7 +15,7 @@
   background-color: #303e51ff;
 }
 .container {
-  width: 1170px;
+  width: 1200px;
   padding: 15px;
   margin: auto;
 }

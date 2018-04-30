@@ -15,7 +15,7 @@
   background-color: #fff;
 }
 .container {
-  width: 1170px;
+  width: 1200px;
   text-align: center;
   margin: auto;
 }
