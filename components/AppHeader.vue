@@ -32,7 +32,7 @@
   background-repeat: no-repeat;
 }
 .container {
-  width: 1200px;
+  max-width: 1200px;
   margin: auto;
   padding: 50px 12px 10px 12px;
 }
@@ -51,7 +51,7 @@
   padding-top: 5px;
 }
 .flex-container {
-  width: 750px;
+  max-width: 750px;
   height: 600px;
   margin: 0 auto 0 auto;
   display: flex;
@@ -87,11 +87,7 @@
   width: 33%;
   font-size: 16px;
   text-align: center;
-}
-@media screen and (min-width:600px){
-  body{
-    p: blue;
-  }
+  letter-spacing: 1px;
 }
 </style>
 
