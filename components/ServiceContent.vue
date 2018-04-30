@@ -54,6 +54,8 @@
 .wrapper {
   display: block;
   background-color: #232c30;
+    padding-top: 90px;
+  padding-bottom: 50px;
 }
 .container {
   max-width: 1200px;
@@ -61,14 +63,13 @@
   margin: auto;
 }
 .content-title {
-  padding-top: 60px;
   color: #fff;
-  font-size: 18px;
-  letter-spacing: 3px;
+  font-size: 22px;
+  letter-spacing: 4px;
 }
 .flex-container {
   max-width: 1000px;
-  height: 400px;
+  height: 350px;
   margin: 0 auto 0 auto;
   display: flex;
   justify-content: center;
@@ -76,14 +77,15 @@
   text-align: left;
 }
 .flex-item {
-  flex: 3;
+  flex: 4;
   border-left: solid 1px #677075;
   height: 220px;
+  padding-top: 3px;
   padding-left: 30px;
   color: #fff;
 }
 .flex-list {
-  flex: 0.2;
+  flex: 1;
 }
 .service-number {
   color: #677075;
