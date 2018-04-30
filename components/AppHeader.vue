@@ -5,12 +5,12 @@
       <p class="role">TECH Consulting & Engineering</p>
     </div>
     <div class="flex-container">
-      <div class="flex-item-left">
+      <div class="flex-item">
         <img src="images/logo_white.png" alt="logo_white">
         <p class="message">経営課題を技術で解決する。</p>
         <p class="message-sub">Resolve Management issues by tech.</p>
       </div>
-      <div class="flex-item-right">
+      <div class="flex-item">
         <ul class="service-list">
           <li>SERVICES</li>
           <li>CASES</li>
@@ -26,15 +26,14 @@
   display: block;
   background-color: #2a3134;
   background-image: url("/images/bglogo.png");
-  background-size: 110%;
+  background-size: cover;
   background-attachment: fixed;
-  background-position: -150px -110px;
   background-repeat: no-repeat;
 }
 .container {
   max-width: 1200px;
   margin: auto;
-  padding: 50px 12px 10px 12px;
+  padding: 50px 30px 10px 30px;
 }
 .name {
   color: #fff;
@@ -58,11 +57,9 @@
   justify-content: center;
   align-items: center;
 }
-.flex-item-left {
+.flex-item {
   flex: 1;
-}
-.flex-item-right {
-  flex: 1;
+  padding: 0 30px 0 30px;
 }
 .message {
   padding-top: 15px;
@@ -88,6 +85,45 @@
   font-size: 16px;
   text-align: center;
   letter-spacing: 1px;
+}
+@media screen and (max-width:768px) {
+  .flex-container {
+    flex-wrap: wrap;
+    flex-direction: row;
+    height: 300px;
+  }
+  .flex-item {
+    min-width: 300px;
+  }
+  .flex-container img {
+    width: 180px;
+  }
+}
+@media screen and (max-width:480px) {
+  .flex-container {
+    flex-wrap: wrap;
+    flex-direction: row;
+    height: 200px;
+    padding-top: 30px;
+  }
+  .flex-item {
+    min-width: 360px;
+  }
+  .flex-container img {
+    width: 140px;
+  }
+  .flex-container p {
+    font-size: 12px;
+  }
+  .flex-container li {
+    font-size: 12px;
+  }
+  .name {
+    font-size: 12px;
+  }
+  .role {
+    font-size: 8px;
+  }
 }
 </style>
 
