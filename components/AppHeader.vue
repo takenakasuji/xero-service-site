@@ -103,7 +103,7 @@
   .flex-container {
     flex-wrap: wrap;
     flex-direction: row;
-    height: 200px;
+    height: 300px;
     padding-top: 30px;
   }
   .flex-item {
