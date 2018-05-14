@@ -49,12 +49,10 @@
   display: block;
   background-color: #2a3134;
   background-image: url("/images/cases_background.png");
-  background-size: 140%;
+  background-size: cover;
   background-position: center 80px;
   background-repeat: no-repeat;
-  padding-top: 90px;
-  padding-bottom: 70px;
-  height: 600px;
+  padding: 90px 30px 70px;
 }
 .container {
   max-width: 1200px;
@@ -68,7 +66,6 @@
 }
 .flex-container {
   max-width: 1200px;
-  min-height: 600px;
   margin: 0 auto 0 auto;
   display: flex;
   flex-wrap: wrap;
@@ -79,25 +76,37 @@
 }
 .flex-item {
   flex: 1;
-  padding: 40px 80px 0 80px;
+  padding: 60px 5% 0 5%;
   color: #fff;
 }
 .case_one {
-  background-image: url("/images/case_01.png");
-  background-position: center 0px;
-  background-size: contain;
+  background-image: 
+    url("/images/case_1_upper.png"),
+    url("/images/case_lowwer.png");
+  background-position:
+    left top,
+    bottom right;
+  background-size: 80%;
   background-repeat: no-repeat;
 }
 .case_two {
-  background-image: url("/images/case_02.png");
-  background-position: center 0px;
-  background-size: 100%;
+  background-image: 
+    url("/images/case_2_upper.png"),
+    url("/images/case_lowwer.png");
+  background-position:
+    left top,
+    bottom right;
+  background-size: 80%;
   background-repeat: no-repeat;
 }
 .case_three {
-  background-image: url("/images/case_03.png");
-  background-position: center 0px;
-  background-size: 100%;
+  background-image: 
+    url("/images/case_3_upper.png"),
+    url("/images/case_lowwer.png");
+  background-position:
+    left top,
+    bottom right;
+  background-size: 80%;
   background-repeat: no-repeat;
 }
 .case-title {
@@ -108,5 +117,32 @@
   font-size: 14px;
   padding-bottom: 40px;
   line-height: 1.5;
+}
+@media screen and (max-width:768px) {
+  .flex-item {
+     padding: 60px 30px 0 30px;
+  }
+}
+@media screen and (max-width:480px) {
+  .wrapper {
+    padding-bottom: 30px;
+  }
+  .flex-container {
+    height: auto;
+    flex-direction: column;
+  }
+  .flex-item {
+    margin-bottom: 30px;
+    padding: 110px 5% 30px 5%;
+  }
+  .case_one {
+    background-size: 90%;
+  }
+  .case_two {
+    background-size: 90%;
+  }
+  .case_three {
+    background-size: 90%;
+  }
 }
 </style>
