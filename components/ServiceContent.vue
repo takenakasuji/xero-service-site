@@ -75,7 +75,7 @@
 }
 .flex-container {
   max-width: 1100px;
-  height: 350px;
+  min-height: 350px;
   margin: 0 auto 0 auto;
   display: flex;
   flex-wrap: wrap;
@@ -146,7 +146,7 @@
     flex-direction: column;
   }
   .flex-box {
-    min-width: 360px;
+    min-width: 260px;
     padding: 30px 0 20px 0;
   }
 }
