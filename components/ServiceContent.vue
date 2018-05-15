@@ -4,8 +4,10 @@
       <p class="content-title">SERVICES</p>
       <div class="flex-container">
         <div class="flex-box">
-          <div class="list-number">
-            <p class="service-number">01</p>
+          <div class="number-box">
+            <div class="list-number-one">
+              <p class="service-number">01</p>
+            </div>
           </div>
           <div class="flex-item">
             <img class="service-icon" src="/images/technicaladvise-icon.png" alt="technicaladvise-icon.png">
@@ -20,8 +22,10 @@
           </div>
         </div>
         <div class="flex-box">
-          <div class="list-number">
-            <p class="service-number">02</p>
+          <div class="number-box">
+            <div class="list-number">
+              <p class="service-number">02</p>
+            </div>
           </div>
           <div class="flex-item">
             <img class="service-icon" src="/images/application-icon.png" alt="application-icon.png">
@@ -36,8 +40,10 @@
           </div>
         </div>
         <div class="flex-box">
-          <div class="list-number">
-            <p class="service-number">03</p>
+          <div class="number-box">
+            <div class="list-number">
+              <p class="service-number">03</p>
+            </div>
           </div>
           <div class="flex-item">
             <img class="service-icon" src="/images/infrastructure-icon.png" alt="infrastructure-icon.png">
@@ -57,6 +63,7 @@
 </template>
 
 <style scoped>
+@import url('https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed:500i');
 .wrapper {
   display: block;
   background-color: #232c30;
@@ -95,15 +102,25 @@
   padding: 0 30px 0 30px;
   color: #fff;
 }
+.number-box {
+  position: relative;
+  overflow: hidden;
+}
+.list-number-one {
+  width: 60px;
+  position: relative;
+  left: 8px;
+}
 .list-number {
   width: 60px;
+  position: relative;
+  left: 2px;
 }
 .service-number {
   color: #677075;
-  font-family: "Barlow Semi Condensed - Medium Italic";
-  font-size: 50px;
-  letter-spacing: 1px;
-  transform: scale(0.9, 1);
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-size: 70px;
+  font-style: oblique;
 }
 .service-icon {
   width: 40px;
