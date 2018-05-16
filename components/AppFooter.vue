@@ -9,8 +9,8 @@
 <style scoped>
 .hooter {
   display: block;
-  height: 150px;
-  background-color: #2a3134;
+  height: 110px;
+  background-color: #232c30;
 }
 .container {
   max-width: 1200px;
