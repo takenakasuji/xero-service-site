@@ -37,9 +37,23 @@
           </div>
         </div>
         <div class="flex-item-right">
-          <div class="flex-item-biography">
-            <p class="biography-en">BIOGRAPHY</p>
-            <p class="biography-jp">略歴</p>
+          <p class="biography-en">BIOGRAPHY</p>
+          <p class="biography-jp">略歴</p>
+          <div class="flex-container-biography">
+            <div class="flex-item-year">
+              <p class="year">2002</p>
+              <p class="year">2006</p>
+              <p class="year">2013</p>
+              <p class="year">2015</p>
+              <p class="year">2016</p>
+            </div>
+            <div class="flex-item-description">
+              <p class="description">陸上自衛隊入隊</p>
+              <p class="description">システムインテグレータにて業務システムの開発、ITインフラ構築、大規模無線LAN設計構築に従事</p>
+              <p class="description">データホテル（現NHNテコラス）にて、ITインフラ構築・運用、およびサービス企画に従事</p>
+              <p class="description">アマゾンジャパンにて、ディストリビューションセンターのエンジニアとしてITシステムの構築・運用に従事</p>
+              <p class="description">株式会社FABRIC TOKYOにてオーダースーツのEC「LaFabric（現FABRIC TOKYO）」の開発にCTOとして従事。開発業務だけでなく、経営全般や組織設計にも携わる。</p>
+            </div>
           </div>
         </div>
       </div>
@@ -48,6 +62,7 @@
 </template>
 
 <style scoped>
+@import url('https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed');
 .wrapper {
   display: block;
   min-height: 400px;
@@ -67,7 +82,7 @@
   justify-content: center;
   align-items: top;
   text-align: left;
-    letter-spacing: 0.2vh;
+  letter-spacing: 0.1vh;
 }
 .flex-container-profile {
   margin: 0 auto 0 auto;
@@ -79,6 +94,15 @@
   flex-direction: row;
 }
 .flex-container-info {
+  margin: 60px auto 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  align-items: top;
+  text-align: left;
+  flex-direction: row;
+}
+.flex-container-biography {
   margin: 60px auto 0 auto;
   display: flex;
   flex-wrap: wrap;
@@ -104,9 +128,6 @@
   flex: 1.8;
   padding-left: 40px;
 }
-.flex-item-biography {
-  flex: 1;
-}
 .flex-item-attribute {
   flex: 1;
   padding-top: 5px;
@@ -116,6 +137,17 @@
   flex: 2;
   padding: 5px 0 0 50px;
   border-left: solid 1px #677075;
+}
+.flex-item-year {
+  flex: 1;
+  font-size: 20px;
+  letter-spacing: 1vh;
+}
+.flex-item-description {
+  flex: 3.5;
+  font-size: 12px;
+  padding-left: 40px;
+  border-left: solid 1px #fff
 }
 .footer-logo {
   width: 100px;
@@ -158,6 +190,26 @@
 }
 .biography-jp {
   font-size: 10px;
+}
+.year {
+  min-height: 60px;
+  position: relative;
+
+}
+.year::after {
+  content: "";
+  position: absolute;
+  background: #eee;
+  top: 25%;
+  left: calc(100% - 4.5px);
+  margin-top :-10px;
+  height: 9px;
+  width: 9px;
+  border-radius: 50%;
+}
+.description {
+  min-height: 60px;
+  line-height: 1.8;
 }
 @media screen and (max-width:480px) {
   .flex-container {
