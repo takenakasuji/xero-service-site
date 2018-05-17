@@ -37,5 +37,10 @@ module.exports = {
   },
   css: [
     '~assets/css/reset.css'
+  ],
+  modules: [
+    ['@nuxtjs/google-analytics', {
+      id: 'UA-119380582-1'
+    }]
   ]
 }
