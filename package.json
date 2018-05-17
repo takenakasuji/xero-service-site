@@ -14,7 +14,8 @@
   },
   "dependencies": {
     "@nuxtjs/google-analytics": "^2.0.2",
-    "nuxt": "^1.0.0"
+    "nuxt": "^1.0.0",
+    "vue-meta": "^1.5.0"
   },
   "devDependencies": {
     "babel-eslint": "^8.2.1",
