@@ -48,11 +48,21 @@
               <p class="year">2016</p>
             </div>
             <div class="flex-item-description">
-              <p class="description">陸上自衛隊入隊</p>
-              <p class="description">システムインテグレータにて業務システムの開発、ITインフラ構築、大規模無線LAN設計構築に従事</p>
-              <p class="description">データホテル（現NHNテコラス）にて、ITインフラ構築・運用、およびサービス企画に従事</p>
-              <p class="description">アマゾンジャパンにて、ディストリビューションセンターのエンジニアとしてITシステムの構築・運用に従事</p>
-              <p class="description">株式会社FABRIC TOKYOにてオーダースーツのEC「LaFabric（現FABRIC TOKYO）」の開発にCTOとして従事。開発業務だけでなく、経営全般や組織設計にも携わる。</p>
+              <div class="description-box">
+                <p class="description">陸上自衛隊入隊</p>
+              </div>
+              <div class="description-box">
+                <p class="description">システムインテグレータにて業務システムの開発、ITインフラ構築、大規模無線LAN設計構築に従事</p>
+              </div>
+              <div class="description-box">
+                <p class="description">データホテル（現NHNテコラス）にて、ITインフラ構築・運用、およびサービス企画に従事</p>
+              </div>
+              <div class="description-box">
+                <p class="description">アマゾンジャパンにて、ディストリビューションセンターのエンジニアとしてITシステムの構築・運用に従事</p>
+              </div>
+              <div class="description-box-last">
+                <p class="description">株式会社FABRIC TOKYOにてオーダースーツのEC「LaFabric（現FABRIC TOKYO）」の開発にCTOとして従事。開発業務だけでなく、経営全般や組織設計にも携わる。</p>
+              </div>
             </div>
           </div>
         </div>
@@ -146,8 +156,17 @@
 .flex-item-description {
   flex: 3.5;
   font-size: 12px;
+}
+.description-box {
+  position: relative;
+  top: 10px;
   padding-left: 40px;
   border-left: solid 1px #fff
+}
+.description-box-last {
+  position: relative;
+  top: 10px;
+  padding-left: 40px;
 }
 .footer-logo {
   width: 100px;
@@ -192,8 +211,8 @@
   font-size: 10px;
 }
 .year {
-  min-height: 60px;
-  padding-bottom: 20px;
+  min-height: 70px;
+  padding-right: 40px;
   position: relative;
 
 }
@@ -201,7 +220,7 @@
   content: "";
   position: absolute;
   background: #eee;
-  top: 25%;
+  top: 22%;
   left: calc(100% - 4.5px);
   margin-top :-10px;
   height: 9px;
@@ -209,13 +228,29 @@
   border-radius: 50%;
 }
 .description {
-  min-height: 60px;
-  padding-bottom: 20px;
+  min-height: 70px;
   line-height: 1.8;
+  position: relative;
+  top: -10px;
 }
 @media screen and (max-width:480px) {
   .flex-container {
     flex-direction: column;
+  }
+  .flex-item-right {
+    margin-top: 50px;
+  }
+  .flex-container-biography {
+    margin: 30px auto 0 auto;
+  }
+  .year {
+    min-height: 120px;
+  }
+  .description {
+    min-height: 120px;
+  }
+  .year::after {
+    top: 13%;
   }
 }
 </style>
