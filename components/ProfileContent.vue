@@ -193,6 +193,7 @@
 }
 .year {
   min-height: 60px;
+  padding-bottom: 20px;
   position: relative;
 
 }
@@ -209,6 +210,7 @@
 }
 .description {
   min-height: 60px;
+  padding-bottom: 20px;
   line-height: 1.8;
 }
 @media screen and (max-width:480px) {
