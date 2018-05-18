@@ -123,12 +123,10 @@
 }
 .flex-item-left {
   flex: 1;
-  padding: 0 0 0 5%;
   color: #fff;
 }
 .flex-item-right {
   flex: 1.5;
-  padding: 0 5%;
   color: #fff;
 }
 .flex-item-img {
@@ -235,7 +233,7 @@
 }
 @media screen and (max-width:480px) {
   .wrapper {
-    padding: 90px 20px 70px;
+    padding: 90px 30px 70px;
   }
   .flex-container {
     flex-direction: column;
