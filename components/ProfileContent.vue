@@ -78,7 +78,7 @@
   min-height: 400px;
   background-color: #232c30;
   padding-top: 60px;
-  padding: 90px 30px 70px;
+  padding: 90px 60px 70px;
 }
 .container {
   max-width: 1200px;
@@ -113,7 +113,7 @@
   flex-direction: row;
 }
 .flex-container-biography {
-  margin: 60px auto 0 auto;
+  margin: 60px 0 0 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: left;
@@ -214,7 +214,17 @@
   position: relative;
 
 }
-
+.year::after {
+  content: "";
+  position: absolute;
+  background: #eee;
+  top: 22%;
+  left: calc(100% - 4.5px);
+  margin-top :-10px;
+  height: 9px;
+  width: 9px;
+  border-radius: 50%;
+}
 .description {
   min-height: 70px;
   line-height: 1.8;
@@ -232,7 +242,7 @@
     margin-top: 50px;
   }
   .flex-container-biography {
-    margin: 30px auto 0 auto;
+    margin: 30px 0 0 0;
   }
   .year {
     min-height: 120px;
@@ -240,6 +250,8 @@
   .description {
     min-height: 120px;
   }
-
+  .year::after {
+    top: 13%;
+  }
 }
 </style>

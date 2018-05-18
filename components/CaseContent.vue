@@ -52,7 +52,7 @@
   background-size: cover;
   background-position: center 80px;
   background-repeat: no-repeat;
-  padding: 90px 30px 70px;
+  padding: 90px 60px 70px;
 }
 .container {
   max-width: 1200px;
