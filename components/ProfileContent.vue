@@ -219,7 +219,7 @@
   position: absolute;
   background: #eee;
   top: 22%;
-  left: calc(100% - 4.5px);
+  left: 97%;
   margin-top :-10px;
   height: 9px;
   width: 9px;
