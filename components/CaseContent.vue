@@ -133,7 +133,7 @@
   }
   .flex-item {
     margin-bottom: 30px;
-    padding: 110px 5% 30px 5%;
+    padding: 110px 20px 30px 20px;
   }
   .case_one {
     background-size: 90%;
