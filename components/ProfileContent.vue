@@ -90,7 +90,7 @@
   justify-content: center;
   align-items: top;
   text-align: left;
-  letter-spacing: 0.1vh;
+  letter-spacing: 1px;
 }
 .flex-container-profile {
   display: flex;
@@ -146,7 +146,7 @@
 .flex-item-year {
   flex: 1;
   font-size: 20px;
-  letter-spacing: 1vh;
+  letter-spacing: 6px;
 }
 .flex-item-description {
   flex: 3.5;
