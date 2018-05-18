@@ -240,8 +240,6 @@
   .description {
     min-height: 120px;
   }
-  .year::after {
-    top: 13%;
-  }
+
 }
 </style>
