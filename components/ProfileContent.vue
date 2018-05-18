@@ -92,6 +92,7 @@
   justify-content: center;
   align-items: top;
   text-align: left;
+  letter-spacing: 0.1vh;
 }
 .flex-container-profile {
   margin: 0 auto 0 auto;
@@ -213,17 +214,7 @@
   position: relative;
 
 }
-.year::after {
-  content: "";
-  position: absolute;
-  background: #eee;
-  top: 22%;
-  left: calc(100% - 4.5px);
-  margin-top :-10px;
-  height: 9px;
-  width: 9px;
-  border-radius: 50%;
-}
+
 .description {
   min-height: 70px;
   line-height: 1.8;
