@@ -83,10 +83,8 @@
 .container {
   max-width: 1200px;
   text-align: center;
-  margin: auto;
 }
 .flex-container {
-  margin: 0 auto 0 auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -95,7 +93,6 @@
   letter-spacing: 0.1vh;
 }
 .flex-container-profile {
-  margin: 0 auto 0 auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: left;
@@ -104,7 +101,7 @@
   flex-direction: row;
 }
 .flex-container-info {
-  margin: 60px auto 0 auto;
+  margin: 60px 0 0 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: left;
@@ -219,7 +216,7 @@
   position: absolute;
   background: #eee;
   top: 22%;
-  left: 97%;
+  left: 96.5%;
   margin-top :-10px;
   height: 9px;
   width: 9px;
