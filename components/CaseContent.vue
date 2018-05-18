@@ -125,7 +125,7 @@
 }
 @media screen and (max-width:480px) {
   .wrapper {
-    padding-bottom: 30px;
+    padding: 70px 30px 60px;
   }
   .flex-container {
     height: auto;

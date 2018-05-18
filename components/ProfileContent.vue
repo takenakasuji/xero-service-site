@@ -230,7 +230,7 @@
 }
 @media screen and (max-width:480px) {
   .wrapper {
-    padding: 90px 30px 70px;
+    padding: 70px 30px 70px;
   }
   .flex-container {
     flex-direction: column;

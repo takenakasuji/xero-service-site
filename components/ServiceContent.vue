@@ -144,7 +144,7 @@
 }
 @media screen and (max-width:768px) {
   .wrapper {
-    padding-top: 45px;
+    padding-top: 70px;
     padding-bottom: 10px;
   }
   .flex-item p {
