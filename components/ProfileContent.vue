@@ -128,7 +128,6 @@
 }
 .flex-item-right {
   flex: 1.5;
-  padding: 0 5%;
   color: #fff;
 }
 .flex-item-img {
