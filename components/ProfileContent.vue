@@ -92,7 +92,6 @@
   justify-content: center;
   align-items: top;
   text-align: left;
-  letter-spacing: 0.1vh;
 }
 .flex-container-profile {
   margin: 0 auto 0 auto;
