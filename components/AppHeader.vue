@@ -89,6 +89,7 @@
 .content-link {
   color: #FFFFFF;
   text-decoration: none;
+  letter-spacing: 1.8px;
 }
 @media screen and (max-width:768px) {
   .flex-container {
