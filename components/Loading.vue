@@ -21,11 +21,17 @@ img {
   left: 0;
   right: 0;
   margin: auto;
-  max-width: 30%;
-  max-height: 30%;
+  max-width: 10%;
+  max-height: 10%;
 }
 @keyframes fadeIn {
   0% {opacity: 0}
   100% {opacity: 1}
+}
+@media screen and (max-width:480px) {
+  img {
+    max-width: 30%;
+    max-height: 30%;
+  }
 }
 </style>
