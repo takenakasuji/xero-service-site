@@ -6,7 +6,7 @@
         <div class="flex-item case_one">
           <div>
             <p class="case-title">CLIENT</p>
-            <p class="case-detail">フォトグラファーマッチングサービス</p>
+            <p class="case-detail">出張撮影マッチングサービス</p>
           </div>
           <div>
             <p class="case-title">SERVICE</p>
