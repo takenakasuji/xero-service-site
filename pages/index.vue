@@ -1,5 +1,8 @@
 <template>
-  <div class="wrapper">
+  <div v-if="loading">
+    <loading />
+  </div>
+  <div class="wrapper" v-else>
     <section>
       <app-header/>
     </section>
@@ -27,11 +30,12 @@
 
 
 <script>
-import AppHeader from '~/components/AppHeader.vue'
-import ServiceContent from '~/components/ServiceContent.vue'
-import CaseContent from '~/components/CaseContent.vue'
-import ProfileContent from '~/components/ProfileContent.vue'
-import AppFooter from '~/components/AppFooter.vue'
+import AppHeader from '@/components/AppHeader.vue'
+import ServiceContent from '@/components/ServiceContent.vue'
+import CaseContent from '@/components/CaseContent.vue'
+import ProfileContent from '@/components/ProfileContent.vue'
+import AppFooter from '@/components/AppFooter.vue'
+import Loading from '@/components/Loading.vue'
 
 export default {
   components: {
@@ -39,7 +43,21 @@ export default {
     ServiceContent,
     CaseContent,
     ProfileContent,
-    AppFooter
+    AppFooter,
+    Loading
+  },
+  data() {
+    return {
+      loading: true
+    }
+  },
+  mounted() {
+    setTimeout(this.loadingDisable, 1500)
+  },
+  methods: {
+    loadingDisable() {
+      this.loading = false
+    }
   }
 }
 </script>
