@@ -12,9 +12,9 @@
       </div>
       <div class="flex-item">
         <ul class="service-list">
-          <li>SERVICES</li>
-          <li>CASES</li>
-          <li>PROFILE</li>
+          <li><a class="content-link" href="#services">SERVICES</a></li>
+          <li><a class="content-link" href="#cases">CASES</a></li>
+          <li><a class="content-link" href="#profiles">PROFILES</a></li>
         </ul>
       </div>
     </div>
@@ -85,6 +85,10 @@
   font-size: 16px;
   text-align: center;
   letter-spacing: 1px;
+}
+.content-link {
+  color: #FFFFFF;
+  text-decoration: none;
 }
 @media screen and (max-width:768px) {
   .flex-container {

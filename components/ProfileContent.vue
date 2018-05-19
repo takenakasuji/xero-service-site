@@ -1,5 +1,5 @@
 <template>
-  <div class="wrapper">
+  <div id="profiles" class="wrapper">
     <div class="container">
       <div class="flex-container">
         <div class="flex-item-left">

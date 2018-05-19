@@ -1,5 +1,5 @@
 <template>
-  <div class="wrapper">
+  <div id="cases" class="wrapper">
     <div class="container">
       <p class="content-title">CASES</p>
       <div class="flex-container">
