@@ -9,10 +9,10 @@ module.exports = {
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { name: 'google-site-verification', content: 'vZLCleT2gF5ttPETevrThNF5zyby1ZFozC4NlD9Ycs4' },
       { name: 'keywords', content: '技術顧問, ソフトウェア開発， インフラ構築， スタートアップ'},
-      { hid: 'description', name: 'description', content: 'xero service site project' }
+      { hid: 'description', name: 'description', content: 'XERO' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/png', sizes: "32x32", href: '/favicon-32x32.png' }
     ]
   },
   /*
