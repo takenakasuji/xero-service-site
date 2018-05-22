@@ -6,7 +6,7 @@ module.exports = {
     title: 'xero-service-site',
     meta: [
       { charset: 'utf-8' },
-      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+      { name: 'viewport', content: 'width=device-width, initial-scale=1.0, minimum-scale=1.0' },
       { name: 'google-site-verification', content: 'vZLCleT2gF5ttPETevrThNF5zyby1ZFozC4NlD9Ycs4' },
       { name: 'keywords', content: '技術顧問, ソフトウェア開発， インフラ構築， スタートアップ'},
       { hid: 'description', name: 'description', content: 'XERO' }
