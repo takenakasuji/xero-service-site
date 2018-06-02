@@ -52,7 +52,7 @@ export default {
     }
   },
   mounted() {
-    setTimeout(this.loadingDisable, 1500)
+    setTimeout(this.loadingDisable, 3000)
   },
   methods: {
     loadingDisable() {

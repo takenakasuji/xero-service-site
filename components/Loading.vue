@@ -14,7 +14,7 @@
   background-color:#2a3134;
 }
 img {
-  animation: fadeIn 2s ease 0s 1 normal;
+  animation: fadeIn 3s ease 0s 1 normal;
   position: absolute;
   top: 0;
   bottom: 0;
