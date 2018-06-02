@@ -93,10 +93,9 @@
   .flex-container {
     flex-wrap: wrap;
     flex-direction: row;
-    height: 70vh;
   }
   .flex-item {
-    min-width: 500px;
+    min-width: 360px;
   }
   .flex-container img {
     width: 180px;
@@ -106,7 +105,7 @@
   .flex-container {
     flex-wrap: wrap;
     flex-direction: row;
-    height: 70vh;
+    height: 400px;
     padding-top: 30px;
   }
   .flex-item {
