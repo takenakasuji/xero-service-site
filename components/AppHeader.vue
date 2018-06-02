@@ -24,6 +24,7 @@
 <style scoped>
 .header {
   display: block;
+  height: 100vh;
   background-color: #2a3134;
   background-image: url("/images/bglogo.png");
   background-size: cover;
@@ -51,7 +52,7 @@
 }
 .flex-container {
   max-width: 750px;
-  height: 600px;
+  height: 85vh;
   margin: 0 auto 0 auto;
   display: flex;
   justify-content: center;
@@ -75,9 +76,6 @@
 .flex-container img {
   width: 250px;
 }
-.service-list ul {
-  font-size: 0px;
-}
 .service-list li {
   display: inline-block;
   color: #FFFFFF;
@@ -95,10 +93,10 @@
   .flex-container {
     flex-wrap: wrap;
     flex-direction: row;
-    height: 300px;
+    height: 70vh;
   }
   .flex-item {
-    min-width: 300px;
+    min-width: 500px;
   }
   .flex-container img {
     width: 180px;
@@ -108,7 +106,7 @@
   .flex-container {
     flex-wrap: wrap;
     flex-direction: row;
-    height: 300px;
+    height: 70vh;
     padding-top: 30px;
   }
   .flex-item {
