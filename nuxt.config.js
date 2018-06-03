@@ -36,7 +36,9 @@ module.exports = {
         })
       }
     },
-    vendor: ['vue-smooth-scroll']
+    vendor: [
+      'vue-smooth-scroll'
+    ]
   },
   plugins: [
     '~plugins/vue-smooth-scroll'

@@ -15,6 +15,7 @@
   "dependencies": {
     "@nuxtjs/google-analytics": "^2.0.2",
     "nuxt": "^1.0.0",
+    "viewport-units-buggyfill": "^0.6.2",
     "vue-meta": "^1.5.0",
     "vue-smooth-scroll": "^1.0.13"
   },
