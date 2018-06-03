@@ -18,6 +18,9 @@
         </ul>
       </div>
     </div>
+    <div class="scroll-button">
+      <a href="#services"><img src="images/scroll_button.png" alt="scroll_btn"></a>
+    </div>
   </div>
 </template>
 
@@ -52,7 +55,7 @@
 }
 .flex-container {
   max-width: 750px;
-  height: 85vh;
+  height: 65vh;
   margin: 0 auto 0 auto;
   display: flex;
   justify-content: center;
@@ -88,6 +91,12 @@
   color: #FFFFFF;
   text-decoration: none;
   letter-spacing: 1.8px;
+}
+.scroll-button {
+  text-align: center;
+}
+.scroll-button img {
+  max-width: 80px;
 }
 @media screen and (max-width:768px) {
   .flex-container {
@@ -125,6 +134,9 @@
   }
   .role {
     font-size: 8px;
+  }
+  .scroll-button {
+    padding-top: 80px;
   }
 }
 </style>
