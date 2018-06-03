@@ -36,12 +36,6 @@ import CaseContent from '@/components/CaseContent.vue'
 import ProfileContent from '@/components/ProfileContent.vue'
 import AppFooter from '@/components/AppFooter.vue'
 import Loading from '@/components/Loading.vue'
-import * as viewportUnitsBuggyfill from 'viewport-units-buggyfill'
-
-if (process.browser) {
-  viewportUnitsBuggyfill.init()
-  window.addEventListener('resize', viewportUnitsBuggyfill.refresh, true)
-}
 
 export default {
   components: {
