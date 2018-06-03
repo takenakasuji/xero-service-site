@@ -23,6 +23,8 @@
 
 <style scoped>
 .wrapper {
+  height: 100%;
+  overflow: hidden;
   width: auto;
   font-family: Poppins, "Hiragino Kaku", sans-serif;
 }
