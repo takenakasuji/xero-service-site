@@ -114,7 +114,7 @@
   .flex-container {
     flex-wrap: wrap;
     flex-direction: row;
-    height: 400px;
+    height: 60vh;
     padding-top: 30px;
   }
   .flex-item {
