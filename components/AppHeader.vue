@@ -12,14 +12,14 @@
       </div>
       <div class="flex-item">
         <ul class="service-list">
-          <li><a class="content-link" href="#services">SERVICES</a></li>
-          <li><a class="content-link" href="#cases">CASES</a></li>
-          <li><a class="content-link" href="#profiles">PROFILES</a></li>
+          <li><a class="content-link" href="#services" v-smooth-scroll>SERVICES</a></li>
+          <li><a class="content-link" href="#cases" v-smooth-scroll>CASES</a></li>
+          <li><a class="content-link" href="#profiles" v-smooth-scroll>PROFILES</a></li>
         </ul>
       </div>
     </div>
     <div class="scroll-button">
-      <a href="#services"><img src="images/scroll_button.png" alt="scroll_btn"></a>
+      <a href="#services" v-smooth-scroll><img src="images/scroll_button.png" alt="scroll_btn"></a>
     </div>
   </div>
 </template>
