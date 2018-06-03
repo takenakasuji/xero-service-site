@@ -35,8 +35,12 @@ module.exports = {
           exclude: /(node_modules)/
         })
       }
-    }
+    },
+    vendor: ['vue-smooth-scroll']
   },
+  plugins: [
+    '~plugins/vue-smooth-scroll'
+  ],
   css: [
     '~assets/css/reset.css'
   ],
