@@ -10,3 +10,7 @@ yarn-error.log
 
 # Nuxt generate
 dist
+
+# intellij
+.idea
+*.iml
